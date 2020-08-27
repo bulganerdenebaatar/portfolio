@@ -1,8 +1,8 @@
 const menuBtn = document.querySelector('.menu-btn');
 const menu = document.querySelector('.menu');
 const menuNav = document.querySelector('.menu-nav');
-const menuBranding = document.querySelector('.menuBranding');
-const navItem =document.querySelectorAll('.nav-items');
+const menuBranding = document.querySelector('.menu-branding');
+const navItems =document.querySelectorAll('.nav-item');
 
 //Set Initial State of Menu
 let showMenu = false;
@@ -13,8 +13,8 @@ function toggleMenu() {
     if(!showMenu) {
         menuBtn.classList.add('close');
         menu.classList.add('show');
-        menuNav.classList.add('close');
-        menuBranding.classList.add('close');
+        menuNav.classList.add('show');
+        menuBranding.classList.add('show');
         navItems.forEach(item => item.classList.add('show'));
 
         // Set Menu State
