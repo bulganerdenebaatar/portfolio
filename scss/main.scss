@@ -86,7 +86,7 @@ main {
 .bio-image {
 	grid-area: bioimage;
 	width: 200px;
-	height: 200px;
+	height: 250px;
 	margin: auto;
 	border-radius: 50%;
 	border: $secondary-color 3px solid;
@@ -122,7 +122,8 @@ main {
 	grid-template-columns: repeat(3, 1fr);
 
 	img {
-		width: 100%;
+		width: 400px;
+		height: 200px;
 		border: 3px #fff solid;
 
 		&:hover {

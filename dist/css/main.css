@@ -58,7 +58,7 @@
     .menu .nav-item.show {
       transform: translate3d(0, 0, 0); }
     .menu .nav-item.current > a {
-      color: purple; }
+      color: #0ac404; }
   .menu .nav-link {
     display: inline-block;
     position: relative;
@@ -70,7 +70,7 @@
     text-decoration: none;
     transition: all 0.5s ease-out; }
     .menu .nav-link:hover {
-      color: purple; }
+      color: #0ac404; }
 
 .nav-item:nth-child(1) {
   transition-delay: 0.1s; }
@@ -133,7 +133,7 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: purple; }
+  color: #0ac404; }
 
 main {
   padding: 4rem;
@@ -143,7 +143,7 @@ main {
     main .icons a {
       padding: 0.4rem; }
       main .icons a:hover {
-        color: purple;
+        color: #0ac404;
         transition: all 0.5s ease-out; }
   main#home {
     overflow: hidden; }
@@ -159,10 +159,10 @@ main {
 .bio-image {
   grid-area: bioimage;
   width: 200px;
-  height: 200px;
+  height: 250px;
   margin: auto;
   border-radius: 50%;
-  border: purple 3px solid; }
+  border: #0ac404 3px solid; }
 
 .bio {
   grid-area: bio;
@@ -180,18 +180,19 @@ main {
 .job {
   background: #c0c033;
   padding: 0.5rem;
-  border-bottom: purple 5px solid; }
+  border-bottom: #0ac404 5px solid; }
 
 .projects {
   display: grid;
   grid-gap: 0.7rem;
   grid-template-columns: repeat(3, 1fr); }
   .projects img {
-    width: 100%;
+    width: 400px;
+    height: 200px;
     border: 3px #fff solid; }
     .projects img:hover {
       opacity: 0.5;
-      border-color: purple;
+      border-color: #0ac404;
       transition: all 0.5s ease-out; }
 
 .boxes {
@@ -208,7 +209,7 @@ main {
     transition: all 0.5s ease-out; }
     .boxes div:hover {
       padding: 0.5rem 1.5rem;
-      background: purple;
+      background: #0ac404;
       color: #fff; }
       .boxes div:hover span {
         color: #fff; }
@@ -219,7 +220,7 @@ main {
   border: 0;
   margin-bottom: 0.3rem; }
   .btn:hover, .btn-dark:hover, .btn-light:hover {
-    background: purple;
+    background: #0ac404;
     color: #fff; }
 
 .btn-dark {
@@ -239,11 +240,11 @@ main {
 
 @media screen and (min-width: 1171px) {
   .projects {
-    grid-template-columns: repeat(4, 1fr); } }
+    grid-template-columns: repeat(3, 1fr); } }
 
 @media screen and (min-width: 769px) and (max-width: 1170px) {
   .projects {
-    grid-template-columns: repeat(3, 1fr); } }
+    grid-template-columns: repeat(2, 1fr); } }
 
 @media screen and (max-width: 768px) {
   main {
