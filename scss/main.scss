@@ -8,8 +8,11 @@
 body {
 	@include background;
 	background: $primary-color;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size:cover;
+	background-size: cover;
 	color: set-text-color($primary-color);
-	background-attachment: fixed;
     height: 100%;
 	margin: 0;
 	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
