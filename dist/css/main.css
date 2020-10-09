@@ -89,6 +89,10 @@
 
 body {
   background: #a9cedf;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   color: #000;
   height: 100%;
   margin: 0;
@@ -274,5 +278,17 @@ main {
 @media screen and (max-width: 500px) {
   main#home h1 {
     margin-top: 10vh;
-    font-size: 60px;
-    text-align: left; } }
+    font-size: 50px;
+    text-align: left; }
+  h2.sm-heading {
+    font-weight: 300; }
+  .about-info {
+    grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
+    grid-template-columns: 1fr; }
+  .projects {
+    grid-template-columns: 1fr;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 1rem; } }
