@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<!-- Required meta tags always come first -->
+
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="assets/css/style.css">
 
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
 		<!-- Bootstrap CSS -->
 		<link
 			rel="stylesheet"
@@ -13,8 +15,185 @@
 
 		<title>Bulgan's Portfolio</title>
 	</head>
-	<body></body>
-	<footer></footer>
+	<body>
+        <!--Header-->
+        <header class="header-1">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo"></a>
+                </div>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#portfolio" class="nav__link">Portfolio</a></li>
+                        <li class="nav__item"><a href="#education" class="nav__link">Education</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="bx bx-menu"></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main-1">
+            <!-- HOME -->
+            <section class="home section" id="home">
+                <div class="home__container bd-grid">
+                    <h1 class="home__title"><span>HE</span><br>LLO.</h1>
+
+                    <div class="home__scroll">
+                        <a href="#about" class="home__scroll-link"><i class='bx bx-up-arrow-alt'></i>Scroll Down</a>
+                    </div>
+
+                    <img src="assets/img/selfie-1.png" alt="" class="home__img">
+                </div>
+            </section>
+
+            <!-- ABOUT -->
+            <section class="about section" id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/perfil.png" alt="">
+                    </div>
+
+                    <div>
+                        <h2 class="about__subtitle">I am Bulgan Erdenebaatar</h2>
+                        <span class="about__profession">Full Stack Mobile and Web Developer</span>
+                        <p class="about__text">Since graduating from a coding bootcamp, I have grown fond of coding and wanting to pursue my career in software engineering. When I'm not coding, you'll find me cooking, hiking and spending quality time with my family.</p>
+                        
+                        <div class="about__social">
+                            <a href="https://www.linkedin.com/in/bulgan-erdenebaatar/" class="about__social-icon"><i class='bx bxl-linkedin-square' ></i></a>
+                            <a href="https://github.com/bulganerdenebaatar?tab=repositories" class="about__social-icon"><i class='bx bxl-github'></i></i></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ABOUT -->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">
+                    <div class="skills__box">
+                        <h3 class="skills__subtitle">Development</h3>
+                        <span class="skills__name">Html</span>
+                        <span class="skills__name">CSS</span>
+                        <span class="skills__name">JavaScript</span>
+                        <span class="skills__name">Scss</span>
+                        <span class="skills__name">React</span>
+                        <span class="skills__name">React Native</span>
+                        <span class="skills__name">Bootstrap</span>
+                        <span class="skills__name">REST API</span>
+                        <span class="skills__name">JQuery</span>
+                        <span class="skills__name">NodeJS</span>
+                        <span class="skills__name">MongoDB</span>
+
+                        <h3 class="skills__subtitle">Design</h3>
+                        <span class="skills__name">Figma</span>
+                        <span class="skills__name">Figma</span>
+                        <span class="skills__name">Figma</span>
+                        <span class="skills__name">Figma</span>
+                    </div>
+
+                    <div class="skills__img">
+                        <img src="assets/img/skills.jpg" alt="">
+                    </div>
+                </div>
+            </section>
+
+            <!--  Portfolio  -->
+            <section class="portfolio section" id="portfolio">
+                <h2 class="section-title">Projects</h2>
+
+                <div class="portfolio__container bd-grid">
+                    <div class="portfolio__img">
+                        <img src="assets/img/project-4.png" alt="">
+
+                        <div class="portfolio__link">
+                            <a href="http://www.thriveres.com" class="portfolio__link-name">Thrive Real Estate Services</a>
+                        </div>
+                    </div>
+                    <div class="portfolio__img">
+                        <img src="assets/img/project-1.png" alt="">
+
+                        <div class="portfolio__link">
+                            <a href="https://github.com/bulganerdenebaatar/react-nucamp" class="portfolio__link-name">Nucamp Website</a>
+                        </div>
+                    </div>
+                    <div class="portfolio__img">
+                        <img src="assets/img/project-2.png" alt="">
+
+                        <div class="portfolio__link">
+                            <a href="https://github.com/bulganerdenebaatar/netflix-project-react" class="portfolio__link-name">Netflix Page Clone</a>
+                        </div>
+                    </div>
+                    <div class="portfolio__img">
+                        <img src="assets/img/project-3.png" alt="">
+
+                        <div class="portfolio__link">
+                            <a href="https://github.com/bulganerdenebaatar/kobe-tribute" class="portfolio__link-name">Kobe Bryant Tribute</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--  Education  -->
+            <section class="education section" id="education">
+                <h2 class="section-title">Education</h2>
+                <div class="education__container bd-grid">
+                    <div>
+                        <h2 class="about__subtitle">Nucamp Coding Bootcamp</h2>
+                        <span class="about__profession">March 2020 - July 2020</span>
+                        <span class="about__profession">Full Stack Mobile and Web Developer</span>
+                    </div>
+                    <div>
+                        <h2 class="about__subtitle">Edmonds Communinty College</h2>
+                        <span class="about__profession">April 2010 - December 2012</span>
+                        <span class="about__profession">International Business A.A</span>
+                    </div>
+                </div>
+            </section>
+
+            <!--  Contact  -->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">How to Reach Me</h2>
+                <div class="contact__container bd-grid">
+                    <div class="contact__info">
+                        <h3 class="contact__subtitle">Email</h3>
+                        <span class="contact__text">bulganebaatar@gmail.com</span>
+                    </div>
+                    <div class="contact__info">
+                        <h3 class="contact__subtitle">Phone</h3>
+                        <span class="contact__text">206-658-3236</span>
+                    </div>
+                    <div class="contact__info">
+                        <h3 class="contact__subtitle">Address</h3>
+                        <span class="contact__text">Everett, WA</span>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer section">
+            <div class="footer__container bd-grid">
+                <small>Copyright&copy; 2020</small> 
+            </div>
+        </footer>
+       
+
+        <!-- Scroll Reveal -->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--Main JS -->
+        <script src="assets/js/main.js"></script>
+    </body>
+	
 
 	<!-- jQuery, Popper.js, Bootstrap JavaScript plugins.-->
 	<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
