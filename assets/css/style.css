@@ -12,7 +12,7 @@
     --body-font:'Padauk', sans-serif;
     --big-font-size: 6.25rem;
     --h2-font-size: 1.25rem;
-    --normal-font-size: .938rem;
+
     --small-font-size: .813rem;
 }
 
@@ -20,7 +20,7 @@
     :root {
         --big-font-size: 10.5rem;
         --h2-font-size: 2rem;
-        --normal-font-size: 1rem;
+
         --small-font-size: .875rem;
     }
 }
@@ -53,7 +53,7 @@ html {
 body{
     margin: var(--header-height) 0 0 0;
     font-family: var(--body-font);
-    font-size: var(--normal-font-size);
+
     color: var(--text-color);
     line-height: 1.6;
 }
@@ -371,7 +371,7 @@ img {
 }
 
 .front p{
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .front{
