@@ -1,13 +1,12 @@
 /*  Google Fonts  */
-* {
-    font-family: 'Padauk', sans-serif;
+:root {
+    --body-font: font-family: 'Padauk', sans-serif;
 }
 
 /*  Variable CSS  */
 
 :root {
     --header-height: 3rem;
-    --font-medium: 500;
 
     --first-color: #27ca7ed2;
     --white-color: #fafaff;
@@ -59,7 +58,6 @@ body{
     margin: var(--header-height) 0 0 0;
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
-    font-weight: var(--font-medium);
     color: var(--text-color);
     line-height: 1.6;
 }
@@ -298,7 +296,7 @@ img {
 .skills__img img {
     border-radius: .5rem;
 }
-/*  Portfolio  */
+/*  Projects  */
 
 .portfolio {
     background-color: var(--white-color);
@@ -353,6 +351,8 @@ img {
 /*  Contact  */
 .contact__container{
     row-gap: 2rem;
+    justify-items: center;
+    align-items: center;
 }
 
 .card {
@@ -360,6 +360,8 @@ img {
     width: 300px;
     height: 120px;
     margin-bottom: 3em; 
+    text-align: center;
+
 }
 
 .front, .back {
@@ -489,11 +491,7 @@ img {
 
     .contact__container{
         grid-template-columns: repeat(3, 1fr);
-        justify-items: center;
         height: 60vh;
-        justify-content: center;
-        align-items: center;
-        align-content: center;
     }
 
     .footer__container{
