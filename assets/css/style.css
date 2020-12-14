@@ -1,4 +1,7 @@
 /*  Google Fonts  */
+* {
+    font-family: 'Padauk', sans-serif;
+}
 
 /*  Variable CSS  */
 
@@ -350,10 +353,6 @@ img {
 /*  Contact  */
 .contact__container{
     row-gap: 0;
-}
-.contact__subtitle {
-    font-size: 25px;
-    color: var(--first-color);
 }
 
 .middle {
