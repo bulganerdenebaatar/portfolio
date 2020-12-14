@@ -1,7 +1,3 @@
-/*  Google Fonts  */
-:root {
-    --body-font: font-family: 'Padauk', sans-serif;
-}
 
 /*  Variable CSS  */
 
@@ -13,7 +9,7 @@
     --dark-color: #2a3b47;
     --text-color: #697477;
 
-    --body-font: 'Montserrat', 'sans-serif';
+    --body-font:'Padauk', sans-serif;
     --big-font-size: 6.25rem;
     --h2-font-size: 1.25rem;
     --normal-font-size: .938rem;
@@ -388,7 +384,6 @@ img {
     background: rgba(5, 5, 5, 0.897);
     color: white;
     transform: perspective(600px) rotateY(180deg);
-    backdrop-filter: blur(50px);
 }
 
 .card:hover > .front {
