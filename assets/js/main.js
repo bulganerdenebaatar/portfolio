@@ -71,7 +71,7 @@ sr.reveal('.skills__img', {delay: 400})
 sr.reveal('.portfolio__img', {origin:'bottom',interval: 100})
 
 /* Scroll Contact */
-sr.reveal('.card',{interval: 100, delay: 300})
+sr.reveal('.contact__item',{interval: 100, delay: 300})
 sr.reveal('.contact__text',{delay: 400})
 
 /* Scroll Education */ 
